@@ -11,7 +11,7 @@ let numberOfParticles = 300;
 let particleArray = [];
 
 function init() {
-
+    
     let titleData = title.getBoundingClientRect();
 
     let collider = {
@@ -38,7 +38,7 @@ function animate() {
 }
 
 function fadeOutTrails(params) {
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.01)'
+    ctx.fillStyle = 'rgba(255, 255, 255, 1)'
     ctx.fillRect(0, 0, canvas.width, canvas.height)
 }
 
